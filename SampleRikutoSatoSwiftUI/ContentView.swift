@@ -21,25 +21,25 @@ struct ContentView: View {
                             .frame(width: 60, height: 20)
                         
                         ZStack {
-                            Rectangle()
+                            Circle()
                                 .foregroundColor(.gray)
                                 .frame(width: 90, height: 90)
-                            Rectangle()
+                            Circle()
                                 .foregroundColor(.white)
                                 .frame(width: 70, height: 70)
-                            Rectangle()
+                            Circle()
                                 .foregroundColor(.black)
                                 .frame(width: 20, height: 20)
                         }
                         
                         ZStack {
-                            Rectangle()
+                            Circle()
                                 .foregroundColor(.gray)
                                 .frame(width: 90, height: 90)
-                            Rectangle()
+                            Circle()
                                 .foregroundColor(.white)
                                 .frame(width: 70, height: 70)
-                            Rectangle()
+                            Circle()
                                 .foregroundColor(.black)
                                 .frame(width: 20, height: 20)
                         }
